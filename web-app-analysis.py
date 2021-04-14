@@ -28,7 +28,7 @@ plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 st.title('Analysis of Web App data')
 
 st.write('''
-Taking raw click data from the web app in order to draw some actionable insights. Looking for trends that can drive growth.
+Taking raw click data from the web app in order to draw some actionable insights.
 
 By Max Barnes.
 ''')
