@@ -25,18 +25,17 @@ plt.rc('legend', fontsize=MEDIUM_SIZE)    # legend fontsize
 plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 
 
-st.title('Analysis of BMI App data')
-st.image('./bmi-logo.png')
+st.title('Analysis of Web App data')
 
 st.write('''
-Taking raw click data from the Tangent90 app in order to draw some actionable insights. Looking at anything that could drive business and produce increased revenue.
+Taking raw click data from the web app in order to draw some actionable insights. Looking at anything that could drive business and produce increased revenue.
 
 By Max Barnes.
 ''')
 
 
 # Importing data from github repository
-DATA_URL = 'https://raw.githubusercontent.com/mbarnax/tangent90-app-analysis/main/bmi-data.csv'
+DATA_URL = 'https://raw.githubusercontent.com/mbarnax/tangent90-app-analysis/main/web-app-data.csv'
 
 data_load_state = st.text('Loading data...')
 
